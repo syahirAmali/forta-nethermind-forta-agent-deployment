@@ -1,8 +1,8 @@
-# Nethermind Forta Agent Bot Deployment
+# Nethermind Forta Bot Deployment
 
 ## Description
 
-This agent detects when a forta agent bot is deployed through the Nethermind address
+This bot detects when a forta bot is deployed through the Nethermind address
 
 ## Supported Chains
 
@@ -10,16 +10,14 @@ This agent detects when a forta agent bot is deployed through the Nethermind add
 
 ## Alerts
 
-Describe each of the type of alerts fired by this agent
-
 - NETH-BOT-DEPLOYED-1
   - Fired when the Nethermind Deployment address at : "0x88dc3a2284fa62e0027d6d6b1fcfdd2141a143b8", deploys a Forta Agent
   - Severity is always set to "info" 
   - Type is always set to "info" 
   - Metadata fields
-    - agentId: of the deployed agent
-    - metadata: ipfs of the metadata of the agent
-    - chainIds: list of supported chains
+    - `agentId`: agentId of the deployed agent
+    - `metadata`: ipfs of the metadata of the agent
+    - `chainIds`: list of supported chains
 
 ## Test Data
 
